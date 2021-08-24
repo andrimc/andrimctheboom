@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Diplomata&display=swap");
+
+body {
+  background-image: url(assets/img/bg2.png);
+  font-family: "Diplomata", cursive;
+}
+
+.teks3 {
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 4px 6px #def, 0px 0px 0px #000, 1px 4px 6px #def;
+  text-align: center;
+}
+
+.kotak {
+  border-radius: 50%;
+  text-align: center;
+  line-height: 90px;
+  font-size: 80px;
+  color: white;
+}
+.kotak img {
+  width: 100px;
+  height: 100px;
+}
+
+.h3,
+h3 {
+  font-size: calc(1.3rem + -0.4vw);
+}
+
+.bg {
+  background-image: url(assets/img/bg.jpeg);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  box-shadow: 0px 5px 100px #929292;
+}
+.bg1 {
+  position: absolute;
+  top: 5%;
+  height: 6rem;
+  background-image: url(assets/img/bg1.png);
+}
+
+#score {
+  margin-top: -30px;
+}
+
+/* modal footer */
+.modal-footer {
+  justify-content: space-between;
+}
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.wa:hover {
+  background-color: #55ff00;
+}
+.social-icons a.youtube:hover {
+  background-color: #b60000;
+}
+.social-icons a.instagram:hover {
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+}
+
+@media screen and (max-width: 1200px) {
+  .kotak {
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .kotak img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .kotak {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .kotak img {
+    width: 55px;
+    height: 55px;
+  }
+}

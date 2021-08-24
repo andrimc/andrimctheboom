@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>    
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+
+    <link rel="shortcut icon" href="assets/img/logo.png">
+    <title>BOLA THE BOOM</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+
+      <div class="modal-dialog">
+        <div class="modal-content bg-info text-light">
+          <div class="modal-header">
+            <p><h1 class="modal-title text-center teks3" id="exampleModalLabel">BOLA THE BOM</h1></p>
+            </button>
+          </div>
+          <div class="modal-body">
+            Klik semua bola dan Sisakan satu
+          </div>
+          <div class="modal-footer">
+            <ul class="social-icons">
+                <li><a class="wa" href="https://api.whatsapp.com/send?phone=62895613290816&text=Hai%20bg,%20Hai%20kak,%20Mari%20Berteman." target="_blank" ><i class="fa fa-whatsapp"></i></a></li>
+
+                <li><a class="facebook" href="https://web.facebook.com/andri.syahputra.7737769" target="_blank"><i class="fa fa-facebook"></i></a></li>
+
+                <li><a class="instagram" href="https://www.instagram.com/andri_syhptra/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+
+                <li><a class="youtube" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>   
+                          </ul>
+
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-dismiss="modal"
+            >
+              MAIN      
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container p-3">
+		<!-- <div class="m-3">
+			<h1 class="text-center text-light">Bom Paper</h1>
+		</div> -->
+
+      <div class="teks3">
+          <h1>BOLA THE BOOM</h1>
+      </div>
+
+
+		<div class="row justify-content-center mb-5">
+			<div class="col-md-6 p-3 card bg" id="canvas">
+				<div class="row justify-content-center">
+					<div class="col-3 kotak m-2" id="1"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="2"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="3"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="4"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="5"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="6"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="7"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="8"><img src="assets/img/bola.png"></div>
+					<div class="col-3 kotak m-2" id="9"><img src="assets/img/bola.png"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row text-center justify-content-center ">
+			<div class="col-8 shadow-lg card d-none bg1 text-dark" id="score">
+				<p class="text-center"><i>Klik semua hurufnya. Dan sisakan satu jebakan</i></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="assets/jquery.js"></script>
+	<script type="text/javascript" src="assets/engine.js"></script>
+
+    <!-- JavaScript and dependencies -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById("exampleModal"), {});
+        document.onreadystatechange = function () {
+        myModal.show();
+};
+    </script>
+  </body>
+</html>
